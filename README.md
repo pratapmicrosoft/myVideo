@@ -1,7 +1,10 @@
 # My Video Project
 
-Click the link below to view the video in your browser:
+## Watch the Video Below
 
-[View Video](view-video.html)
+<video width="640" height="360" controls>
+	<source src="path/to/your-video.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
 
-> Make sure the HTML file is hosted on a web server (e.g., GitHub Pages) for others to access it online. If you open this link on GitHub, it will show the HTML code, not the rendered page.
+> Note: GitHub's markdown renderer does not support video playback in README files. The video tag will only work if you view this README on a platform that supports HTML in markdown, or if you use a markdown viewer that supports embedded HTML. Otherwise, use the [View Video](view-video.html) link above to watch the video in your browser.
